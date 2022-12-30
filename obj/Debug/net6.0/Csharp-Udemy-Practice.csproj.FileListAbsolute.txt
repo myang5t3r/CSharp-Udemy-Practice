@@ -1,0 +1,15 @@
+/Users/Matthewyang/Documents/Repositories/Csharp-Udemy-Practice/bin/Debug/net6.0/Csharp-Udemy-Practice
+/Users/Matthewyang/Documents/Repositories/Csharp-Udemy-Practice/bin/Debug/net6.0/Csharp-Udemy-Practice.deps.json
+/Users/Matthewyang/Documents/Repositories/Csharp-Udemy-Practice/bin/Debug/net6.0/Csharp-Udemy-Practice.runtimeconfig.json
+/Users/Matthewyang/Documents/Repositories/Csharp-Udemy-Practice/bin/Debug/net6.0/Csharp-Udemy-Practice.dll
+/Users/Matthewyang/Documents/Repositories/Csharp-Udemy-Practice/bin/Debug/net6.0/Csharp-Udemy-Practice.pdb
+/Users/Matthewyang/Documents/Repositories/Csharp-Udemy-Practice/obj/Debug/net6.0/Csharp-Udemy-Practice.csproj.AssemblyReference.cache
+/Users/Matthewyang/Documents/Repositories/Csharp-Udemy-Practice/obj/Debug/net6.0/Csharp-Udemy-Practice.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Matthewyang/Documents/Repositories/Csharp-Udemy-Practice/obj/Debug/net6.0/Csharp-Udemy-Practice.AssemblyInfoInputs.cache
+/Users/Matthewyang/Documents/Repositories/Csharp-Udemy-Practice/obj/Debug/net6.0/Csharp-Udemy-Practice.AssemblyInfo.cs
+/Users/Matthewyang/Documents/Repositories/Csharp-Udemy-Practice/obj/Debug/net6.0/Csharp-Udemy-Practice.csproj.CoreCompileInputs.cache
+/Users/Matthewyang/Documents/Repositories/Csharp-Udemy-Practice/obj/Debug/net6.0/Csharp-Udemy-Practice.dll
+/Users/Matthewyang/Documents/Repositories/Csharp-Udemy-Practice/obj/Debug/net6.0/refint/Csharp-Udemy-Practice.dll
+/Users/Matthewyang/Documents/Repositories/Csharp-Udemy-Practice/obj/Debug/net6.0/Csharp-Udemy-Practice.pdb
+/Users/Matthewyang/Documents/Repositories/Csharp-Udemy-Practice/obj/Debug/net6.0/Csharp-Udemy-Practice.genruntimeconfig.cache
+/Users/Matthewyang/Documents/Repositories/Csharp-Udemy-Practice/obj/Debug/net6.0/ref/Csharp-Udemy-Practice.dll
