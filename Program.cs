@@ -2,15 +2,21 @@
 {
     class Program
     {
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Please Enter Your name");
-            string name = Console.ReadLine() ?? "";
+            string[] friends = { "Vanessa", "Josh", "Nic" };
 
-            Console.WriteLine(name.ToLower());
-            Console.WriteLine(name.ToUpper());
-            Console.WriteLine(name.Trim());
-            Console.WriteLine(name.Substring(3));
+            foreach (var friend in friends)
+            {
+                GreetFriend(friend);
+            }
+
+        }
+
+        static void GreetFriend(string name)
+        {
+            Console.WriteLine($"Hi {name}, how are you?");
         }
     }
 }
