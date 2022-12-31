@@ -5,33 +5,13 @@ namespace UdemyPractice
 {
     class Program
     {
-
-        static List<int> Solution(List<int> mylist)
-        {
-            // write a method that returns a list of even integer numbers between 100 and 170
-            List<int> result = new List<int>();
-
-            foreach (int num in mylist)
-            {
-                if (num <= 170)
-                {
-                    result.Add(num);
-                }
-            }
-
-
-            return result;
-        }
+        /*
+        Write a progam that iterate through each element of the students array and insert them into a hashtable.
+        If a studen with the same ID already exist in the hashtable skip it and display the following error  "Sorry, a student with the same ID already Exists.
+        Use ContainsKey() to check if studetn already exits*/
         static void Main(string[] args)
         {
-            List<int> inputList = new List<int> { 100, 102, 104, 106, 108, 110, 114, 160, 170, 180 };
-            List<int> result = Solution(inputList);
 
-            foreach (int num in result)
-            {
-                System.Console.WriteLine(num);
-            }
-            // System.Console.WriteLine(inputList[2]);
         }
     }
 }
