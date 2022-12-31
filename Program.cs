@@ -1,35 +1,37 @@
-﻿namespace UdemyPractice
+﻿using System;
+using System.Collections.Generic;
+
+namespace UdemyPractice
 {
     class Program
     {
 
-        static void getOdd(Array arr)
+        static List<int> Solution(List<int> mylist)
         {
-            // method should print every odd number 
-            foreach (int item in arr)
+            // write a method that returns a list of even integer numbers between 100 and 170
+            List<int> result = new List<int>();
+
+            foreach (int num in mylist)
             {
-                if (item % 2 != 0)
+                if (num <= 170)
                 {
-                    System.Console.WriteLine(item);
+                    result.Add(num);
                 }
             }
-        }
-        static void getEven(Array arr)
-        {
-            // method should print every odd number 
-            foreach (int item in arr)
-            {
-                if (item % 2 == 0)
-                {
-                    System.Console.WriteLine(item);
-                }
-            }
+
+
+            return result;
         }
         static void Main(string[] args)
         {
-            int[] array = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-            getOdd(array);
-            getEven(array);
+            List<int> inputList = new List<int> { 100, 102, 104, 106, 108, 110, 114, 160, 170, 180 };
+            List<int> result = Solution(inputList);
+
+            foreach (int num in result)
+            {
+                System.Console.WriteLine(num);
+            }
+            // System.Console.WriteLine(inputList[2]);
         }
     }
 }
