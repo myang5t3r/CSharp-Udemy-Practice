@@ -23,31 +23,20 @@ namespace UdemyPractice
             // arrayToHashTable(students);
 
             Hashtable studentHashTable = new Hashtable();
+
             foreach (Student student in students)
             {
                 studentHashTable.Add(student.Id, student);
                 // System.Console.WriteLine(student.Name);
             }
 
-            Student storedStudent1 = (Student)studentHashTable[students[0].Id];
+            // get collection of the keys
+            ICollection studentHashTableKeys = studentHashTable.Keys;
+            System.Console.WriteLine(studentHashTableKeys);
+            foreach (int key in studentHashTableKeys)
+            {
+                System.Console.WriteLine(key + ":" + studentHashTable[key]);
+            }
         }
-
-        // static Hashtable arrayToHashTable(Array studentArr)
-        // {
-        //     Hashtable studentHashTable = new Hashtable();
-
-        //     foreach (Student student in studentArr)
-        //     {
-        //         studentHashTable.Add(student.Id, student);
-        //         // System.Console.WriteLine(student.Name);
-        //     }
-
-        //     // Let retrieve and print out hashtable items
-        //     System.Console.WriteLine(studentHashTable);
-        //     int storedStudent1 = (int)studentHashTable[0];
-
-
-        //     return studentHashTable;
-        // }
     }
 }
