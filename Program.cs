@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace UdemyPractice
 {
@@ -22,21 +23,28 @@ namespace UdemyPractice
             // System.Console.WriteLine(students[0].Id);
             // arrayToHashTable(students);
 
-            Hashtable studentHashTable = new Hashtable();
+            Dictionary<int, Student> studentDictionary = new Dictionary<int, Student>();
 
             foreach (Student student in students)
             {
-                studentHashTable.Add(student.Id, student);
+                studentDictionary.Add(student.Id, student);
                 // System.Console.WriteLine(student.Name);
             }
 
             // get collection of the keys
-            ICollection studentHashTableKeys = studentHashTable.Keys;
-            System.Console.WriteLine(studentHashTableKeys);
-            foreach (int key in studentHashTableKeys)
+            for (int i = 0; i < studentDictionary.Count; i++)
             {
-                System.Console.WriteLine(key + ":" + studentHashTable[key]);
+                KeyValuePair<int, Student> keyValuePair = studentDictionary.ElementAt(i);
+                System.Console.WriteLine("Key : {0}", keyValuePair.Key);
+
+                // To access student data we must store instance into an object
+                Student studentValue = keyValuePair.Value;
+                System.Console.WriteLine("Students Name: {0}", studentValue.Name);
+                System.Console.WriteLine("Students GPA: {0}", studentValue.GPA);
+
             }
+
         }
+
     }
 }
